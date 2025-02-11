@@ -14,6 +14,9 @@ const App = () =>{
       <Text>
         splash
       </Text>
+      <Text>
+        omar altoom
+      </Text>
     </View>
     
   );
