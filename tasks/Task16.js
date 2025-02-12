@@ -12,12 +12,15 @@ class Task16 extends Component {
     };
   }
   hide_show = () => {
-    this.setState({content : !this.state.content});
+    this.state.content === true?this.setState({content:false}):this.setState({content:true});
+    //this.setState({content : !this.state.content});
   }
  render(){ 
+  //{ this.state.content && <Text>Hello from Task16!</Text> || <Text></Text>}
   return (
     <View>
-      { this.state.content && <Text>Hello from Task16!</Text> || <Text></Text>}
+      
+      {this.state.content?<Text>Hello from Task16!</Text>:<Text></Text>}
       <Button
       title = "show or hide"
       onPress={this.hide_show}
