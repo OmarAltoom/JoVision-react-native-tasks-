@@ -24,7 +24,7 @@ class Task16 extends Component {
       
       {this.state.content?<Text>Hello from Task16!</Text>:<Text></Text>}
       <Button
-      title = "show or hide"
+      title = "show"
       onPress={this.hide_show}
       />
     </View>
