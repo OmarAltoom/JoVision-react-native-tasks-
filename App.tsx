@@ -6,19 +6,11 @@
  */
 
 import React from 'react';
-import {View,StyleSheet,Text} from 'react-native';
-
+import {View,StyleSheet,Text, Button} from 'react-native';
+import Task16 from "./tasks/Task16";
 const App = () =>{
   return (
-    <View>
-      <Text>
-        splash
-      </Text>
-      <Text>
-        omar altoom
-      </Text>
-      
-    </View>
+    <Task16></Task16>
     
   );
 }
