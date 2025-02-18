@@ -13,7 +13,8 @@ import {View,StyleSheet,Text, Button} from 'react-native';
 //import Task19 from "./tasks/Task19";
 //import Task20 from "./tasks/Task20";
 // import Task21 from "./tasks/Task21";
-import Task22 from "./tasks/Task22";
+//import Task22 from "./tasks/Task22";
+import Task23 from "./tasks/Task23";
 
 const App = () =>{
   return (
@@ -22,7 +23,8 @@ const App = () =>{
     //<Task19></Task19>
     //<Task20></Task20>
     //<Task21></Task21>
-    <Task22></Task22>
+    //<Task22></Task22>
+    <Task23></Task23>
   );
 }
 const styles = StyleSheet.create({});
